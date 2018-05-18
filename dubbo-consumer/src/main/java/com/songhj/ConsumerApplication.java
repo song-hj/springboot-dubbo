@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ImportResource;
 @Configuration
 @ImportResource({ "classpath:dubbo-consumer.xml" })
 @SpringBootApplication
-public class MvcApplication {
+public class ConsumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MvcApplication.class, args);
+		SpringApplication.run(ConsumerApplication.class, args);
 	}
 }
